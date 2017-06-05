@@ -1,0 +1,35 @@
+body {
+  background: peachpuff;
+}
+.wrapper {
+  border: 1px solid white;
+  margin: 0;
+}
+.header_wrap {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Hobo Std';
+}
+.logo {
+  font-size: 36px;
+  /*border: 1px solid olive;*/
+  margin: 0;
+  margin-left: 2em;
+}
+.logo:hover {
+  color: tomato;
+  cursor: pointer;
+}
+.menu {
+  /*border: 1px solid blue;*/
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-right: 2em;
+}
+.menu:hover {
+  color: tomato;
+  cursor: pointer;
+}
