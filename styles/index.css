@@ -1,35 +1,78 @@
 body {
   background: peachpuff;
 }
+.body-wrap {
+  display: flex;
+  flex-direction: row;
+}
 .wrapper {
+  display: flex;
+  flex-direction: column;
   border: 1px solid white;
   margin: 0;
+  width: 100%;
 }
 .header_wrap {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: 'Hobo Std';
 }
+.header-text {
+  font-family: 'Zapfino';
+  margin-right: 30em;
+  margin-top: 2em;
+}
 .logo {
   font-size: 36px;
   /*border: 1px solid olive;*/
   margin: 0;
+  margin-top: 0.5em;
   margin-left: 2em;
 }
 .logo:hover {
   color: tomato;
   cursor: pointer;
 }
+.MainContent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: plum;
+}
 .menu {
-  /*border: 1px solid blue;*/
+  /*overflow: hidden;*/
+  border: 1px solid blue;
   display: flex;
   align-items: center;
   margin: 0;
-  margin-right: 2em;
+  /*margin-right: 2em;*/
+  flex-direction: row;
+  width: 100px;
+  transition: all .3s;
 }
-.menu:hover {
+
+.hidden-menu {
+  overflow: hidden;
+  width: 0;
+  transition: all .3s;
+ 
+}
+.hamburger {
+  align-self: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 0.5em;
+   
+}
+
+.hamburger:hover {
   color: tomato;
   cursor: pointer;
+}
+li {
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
 }
