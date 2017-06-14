@@ -5,6 +5,7 @@ import Header from "../components/header";
 import MainContent from "../components/MainContent";
 import Menu from "../components/Menu";
 import TiThMenuOutline from "react-icons/lib/ti/th-menu-outline";
+import Footer from '../components/Footer'
 
 class App extends React.Component {
   constructor() {
@@ -27,13 +28,10 @@ class App extends React.Component {
             className="hamburger"
             onClick={this.handleClick}
             size={30}
-            rotate='90'
           />
           <MainContent />
 
-          <div>
-            Hello, Tata!
-          </div>
+         <Footer />
         </div>
         <Menu visible={this.state.visible} />
       </div>

@@ -2955,7 +2955,7 @@ prop-types@15.5.8:
   dependencies:
     fbjs "^0.8.9"
 
-prop-types@^15.5.7, prop-types@~15.5.7:
+prop-types@^15.5.7, prop-types@~15.5.4, prop-types@~15.5.7:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -3068,6 +3068,12 @@ react-icons@^2.2.5:
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-2.2.5.tgz#f942501c21a4cc0456ce2bbee5032c93f6051dcf"
   dependencies:
     react-icon-base "2.0.7"
+
+react-photo-gallery@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-5.6.1.tgz#f905ea4a916d8286ba2d501a05754387a68dfc82"
+  dependencies:
+    prop-types "~15.5.4"
 
 react@^15.5.4:
   version "15.5.4"

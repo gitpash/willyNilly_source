@@ -6,7 +6,8 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-icons": "^2.2.5"
+    "react-icons": "^2.2.5",
+    "react-photo-gallery": "^5.6.1"
   },
   "scripts": {
     "start": "webpack-dev-server --open"
